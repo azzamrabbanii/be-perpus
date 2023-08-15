@@ -78,7 +78,7 @@ perpusController.perpusUpdatebyId = (req, res) => {
             data: 'Data tidak ditemukan'
         });
     } else {
-      if(req.body.namaPeminjam == null || req.body.namaBuku == null || req.body.tanggalPinjam) {
+      if(req.body.namaPeminjam == null || req.body.namaBuku == null || req.body.tanggalPinjam == null) {
         return res.status(400).send({
             status: false,
             data: 'Data tidak lengkap'

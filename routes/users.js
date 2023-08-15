@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const exampleController = require('../controllers/exampleController')
-const perpusController = require('../controllers/perpusController')
+const perpusController = require('../controllers/perpusController') 
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
